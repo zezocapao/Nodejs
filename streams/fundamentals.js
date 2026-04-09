@@ -15,7 +15,7 @@ class OneToHundredStream extends Readable {
 
                 this.push((buf + "\n"))
             }            
-        }, 500);
+        }, 500); 
     }
 }
 
@@ -32,6 +32,7 @@ class modulonegativo extends Transform {
         callback(null, Buffer.from(String(number)))
     }
 }
+
 
 
 
